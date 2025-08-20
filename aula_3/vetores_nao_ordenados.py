@@ -42,15 +42,15 @@ class Vetor():
             self.ultima_posicao -= 1    
     
 
-             
-vet = Vetor(5)
+cap_teste = 5
+nums_inserir = [1, 5, 9, 30, 5]
+vet = Vetor(cap_teste)
 
-vet.inserir(2)
-vet.inserir(4)
-vet.inserir(8)
-
+for i in range(nums_inserir):
+    vet.inserir(nums_inserir[i])
+    
 vet.mostrar()
-# 
+
 posicao_pesquisa = vet.pesquisar(5)
 print('Indice:',posicao_pesquisa)
 
