@@ -43,16 +43,16 @@ class Vetor():
     
 
 cap_teste = 5
-nums_inserir = [1, 5, 9, 30, 5]
-vet = Vetor(cap_teste)
+# nums_inserir = ['t','h','y','e','r','r','y']
+# vet = Vetor(cap_teste)
 
-for i in range(nums_inserir):
-    vet.inserir(nums_inserir[i])
+# for i in range(len(nums_inserir)):
+#     vet.inserir(nums_inserir[i])
     
-vet.mostrar()
+# vet.mostrar()
 
-posicao_pesquisa = vet.pesquisar(5)
-print('Indice:',posicao_pesquisa)
+# posicao_pesquisa = vet.pesquisar(5)
+# print('Indice:',posicao_pesquisa)
 
-vet.excluir(8)
-vet.mostrar()
+# vet.excluir(8)
+# vet.mostrar()
